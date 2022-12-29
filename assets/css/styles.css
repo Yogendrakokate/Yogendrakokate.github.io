@@ -1,4 +1,5 @@
 /*===== GOOGLE FONTS =====*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 /*===== VARIABLES CSS =====*/
 :root {
@@ -7,12 +8,12 @@
   /*===== Colores =====*/
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
-  --hue-color: 224;
+  --hue-color: 355;
   --first-color: hsl(var(--hue-color), 89%, 60%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
-  --big-font-size: 2rem;
+  --big-font-size: 1rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
@@ -53,6 +54,10 @@ body {
 
 h1, h2, p {
   margin: 0;
+  color: white;
+}
+h3,h4{
+  color: white;
 }
 
 ul {
@@ -112,7 +117,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: rgb(95, 95, 95);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -140,6 +145,7 @@ img {
 
 .nav__item {
   margin-bottom: var(--mb-4);
+  color: white;
 }
 
 .nav__link {
@@ -201,6 +207,7 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: white;
 }
 
 .home__title-color {
@@ -216,7 +223,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: var(--first-color);
 }
 
 .home__social-icon:hover {
@@ -228,6 +235,8 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  margin-right: -5%;
+  margin-bottom: 8%;
   
 }
 
@@ -262,6 +271,7 @@ img {
 
 .about__subtitle {
   margin-bottom: var(--mb-2);
+  color: white;
 }
 
 .about__img {
@@ -281,6 +291,7 @@ img {
 
 .skills__subtitle {
   margin-bottom: var(--mb-2);
+  color: white;
 }
 
 .skills__text {
@@ -308,6 +319,7 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .skills__bar {
