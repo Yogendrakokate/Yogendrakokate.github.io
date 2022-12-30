@@ -567,7 +567,12 @@ img {
 .front-endskill{
   display: grid;
   grid-template-columns: repeat(6,1fr);
- margin: auto;
+ justify-items: center;
+}
+.backend_skill{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ justify-items: center;
 }
 .htmlskill{
  height: 8rem;
@@ -587,11 +592,16 @@ margin-bottom: 5px;
 text-align: center;
 }
 
-@media screen and (max-width: 354px){
+@media screen and (max-width: 350px){
   .front-endskill{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: auto;
+  }
+  .backend_skill{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   justify-items: center;
   }
 }
 
