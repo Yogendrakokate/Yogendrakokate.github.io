@@ -612,3 +612,8 @@ text-align: center;
     margin: auto;
   }
 }
+.calendar{
+  border: 5px solid olive;
+  width: 80%;
+ color: white;
+}
