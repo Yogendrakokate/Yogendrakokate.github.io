@@ -617,3 +617,16 @@ text-align: center;
   width: 80%;
  color: white;
 }
+.home__net {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.home__net-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--first-color);
+  
+}
