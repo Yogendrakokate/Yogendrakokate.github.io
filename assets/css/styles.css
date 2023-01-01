@@ -354,7 +354,7 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  row-gap: 3rem;
 }
 
 .work__img {
@@ -574,6 +574,7 @@ img {
   display: grid;
   grid-template-columns: repeat(6,1fr);
  justify-items: center;
+ transition: .5s;
 }
 .backend_skill{
   display: grid;
@@ -585,13 +586,19 @@ img {
  width: 7rem;
  border: 1px solid rgb(255, 255, 255);
 padding: 10px 15px;
-
 }
+
+
+.htmlskill:hover{
+  height: 9rem;
+  width: 8rem;
+}
+
 .htmlskill>img{
   width: 100%;
-  height: 70%;
-  
+  height: 70%;  
 }
+
 .htmlskill>p{
 margin-top: 5px;
 margin-bottom: 5px;
